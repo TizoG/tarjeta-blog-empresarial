@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato";
+}
+body{
+    background-color: #F2F5F9;
+}
+
+.container{
+    max-width: 410px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 165px;
+
+}
+.container-image{
+    position: relative;
+
+}
+.container-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0; /* Solo redondear esquinas superiores */
+}
+svg{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+img{
+    border-radius: 15px;
+    display: block;
+    
+}
+
+.container-text{
+    
+}
+h1{
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #111729;
+}
+.container-parrafo p{
+    font-size: 16px;
+    padding-left: 30px;
+    color: #4A5567;
+}
+
+.container-avatar{
+    margin-top: 20px;
+    border-top: #F2F5F9 solid 2px;
+    display: flex;
+}
+
+.container-avatar img{
+    padding: 2px;
+    border-radius: 50%;
+    border: solid 2px #F2F5F9;
+    margin: 25px;
+}
+
+.container-text-avatar{
+    margin-top: 35px;
+    margin-left: -10px;
+    
+}
+h2{
+    font-size: 1em;
+    color: #111729;
+}
+
+.container-text-avatar p{
+    font-size: 1em;
+    color: #4A5567;
+}
